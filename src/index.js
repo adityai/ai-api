@@ -1,0 +1,10 @@
+'use strict';
+
+var env = process.env.NODE_ENV || 'development';
+
+if (env === 'development' || env === 'test') {
+  require('babel-core/register');
+}
+
+exports = module.exports = require('./app');
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pbmRleC5qcyJdLCJuYW1lcyI6WyJlbnYiLCJwcm9jZXNzIiwiTk9ERV9FTlYiLCJyZXF1aXJlIiwiZXhwb3J0cyIsIm1vZHVsZSJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFJQSxNQUFNQyxRQUFRRCxHQUFSLENBQVlFLFFBQVosSUFBd0IsYUFBbEM7O0FBRUEsSUFBSUYsUUFBUSxhQUFSLElBQXlCQSxRQUFRLE1BQXJDLEVBQTZDO0FBQzNDRyxVQUFRLHFCQUFSO0FBQ0Q7O0FBRURDLFVBQVVDLE9BQU9ELE9BQVAsR0FBaUJELFFBQVEsT0FBUixDQUEzQiIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBlbnYgPSBwcm9jZXNzLmVudi5OT0RFX0VOViB8fCAnZGV2ZWxvcG1lbnQnXG5cbmlmIChlbnYgPT09ICdkZXZlbG9wbWVudCcgfHwgZW52ID09PSAndGVzdCcpIHtcbiAgcmVxdWlyZSgnYmFiZWwtY29yZS9yZWdpc3RlcicpXG59XG5cbmV4cG9ydHMgPSBtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoJy4vYXBwJylcbiJdfQ==
